@@ -1,0 +1,16 @@
+# Exclude the virtual environment and environment-specific files
+venv/
+lib/
+share/
+pyvenv.cfg
+
+# Exclude downloaded or generated files
+downloads/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# System files (optional, but good practice)
+.DS_Store
+Thumbs.db
